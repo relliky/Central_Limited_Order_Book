@@ -1,0 +1,210 @@
+
+
+new order: buy 20  (v100)
+
+ buy              sell 
+ 0                 0
+ 20 (v100)
+ 5				  10(v50)   -  v50   --- x
+ 2				   13(v150) - v50    --- v100
+ 1                 15
+ 
+ 
+ execute:
+ 
+ 2. limit order
+ 
+ a = neworder.get_total_volume();
+
+ 
+ a = neworder::volume;
+ 
+ 
+ // 1. insert a new order into a queue in the order of its priority based on time-price priority
+ // 2. execute the new order.
+ 
+ 1. market order
+ 
+ // 1. detect a market order
+ // 2. THERE IS NO WAY THAT TWO MARKETS WILL EXISIT IN THE QUEUE.
+
+  buy              sell 
+ 0(v200)            20 (v100) - v100 = 0               market order price  =  current sell price
+				   10(v50)    - v50 =0        
+ 2				    
+ 1                 
+ 
+ market order is not expired but filled
+ 
+  buy              sell 
+ 0(v200)            
+ 5				       
+ 2				    
+ 1                 
+
+ market order is expired 
+ 
+ 
+ 
+ std::vector   eg_vector;
+ 
+ // element 0,   1,    2,    3
+ // order   order1 order2 order 3 order4
+ 
+ 
+ // orderQueueAgainstTime
+ // 
+ 
+ int          a;
+ std::ostream std::cout , &log;
+ 
+ int = 12;
+ a = 12;
+ 
+ log = & std::cout;
+ 
+ std::ostream & log;
+ std::ostream  log;
+ 
+ 
+ 
+ 
+void print(std::ostream &log)
+{ 
+ log << 1;
+}
+
+print(std::cout);
+
+1
+ 
+ 
+ 1cm +-0.1cm 
+ 0.1 tolerance/error
+ 
+ price 9.11 9.09  tolerance 0.01 
+ 9.1  +- 0.01
+ 
+ a 9.11 > b 9.09
+  
+ a>b 
+ 
+  4 - 5
+  
+  abs(-1) ? tolerace
+  
+  
+  std::vector<int> egv;
+
+  
+  // vector
+
+  
+	egv.push_back(1);
+	egv.push_back(2);
+	egv.push_back(3);
+
+  // vector
+location 0   : 1  
+location 1   : 2   
+location 2   : 3  
+  
+ 	iterator itr = egv.begin();
+	
+  !!                        
+	0   1   2   3   4   5
+	
+	itr++;
+	
+      !!                        
+	0   1   2   3   4   5
+
+	itr++;
+	
+          !!                        
+	0   1   2   3   4   5
+
+	itr+=3;
+	
+                      !!                        
+	0   1   2   3   4   5
+
+	itr++;
+	
+                          !!                        
+	0   1   2   3   4   5
+	
+	itr = egv.end();
+	
+                          !!                        
+	0   1   2   3   4   5
+   
+    itr = egv.begin() +1;
+  
+      !!                        
+	0   1   2   3   4   5
+	
+	egv.insert(itr, 15)
+	
+       xx  --- running away to nowhere                        
+	0  15  1   2   3   4   5
+	
+	 itr = egv.begin() +1;
+	
+	 !!
+	0  15  1   2   3   4   5
+
+    itr = egv.begin() +1;
+  
+      !!                        
+	0   1   2   3   4   5
+
+	egv.erase(itr);
+
+          xx   --- running away to nowhere                         
+	0   2   3   4   5
+	
+	itr = egv.end();
+	
+                          !!                        
+	0   1   2   3   4   5
+ 
+	egv.erase(itr);
+
+    !!!!!system error: window not responding!
+	
+	because the element iterator points to does not exist.
+	
+	
+	
+	a = egv.at(3-1);
+	
+//location:		0   1   2   3   4   5
+//value         2   3   6   8   2   2
+	
+class order;
+std::vector<order> orderV;
+	
+	//order.get_price()   --- location 5;
+	
+  currentOrderPrice = orderV.at(5).get_price();
+	
+//location:		0   1   2   3   4   5
+//value                             order
+
+
+	orderV.at(0) ========  orderV.front()
+	orderV.at(ZuiHouYiGe) ========  orderV.back()
+	
+	
+	
+	
+  
+  
+  
+  
+  
+  
+  
+ 
+ 

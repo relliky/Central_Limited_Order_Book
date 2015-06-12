@@ -1,0 +1,31 @@
+Order book open.
+Order submitted: ID=1, type=SELL, price=10.10, volume=100.
+Order submitted: ID=2, type=SELL, price=10.30, volume=75.
+Order submitted: ID=3, type=BUY, price=9.80, volume=200.
+Order submitted: ID=4, type=BUY, price=10.00, volume=150.
+Order submitted: ID=5, type=BUY, price=9.90, volume=100.
+Order submitted: ID=6, type=SELL, price=10.10, volume=50.
+Order information: ID=1, type=SELL, price=10.10, total volume=100, executed volume=0, status=ACTIVE.
+Order submitted: ID=7, type=BUY, price=10.20, volume=200.
+Transaction: SELL=1, BUY=7, price=10.10, volume=100.
+Transaction: SELL=6, BUY=7, price=10.10, volume=50.
+Order information: ID=1, type=SELL, price=10.10, total volume=100, executed volume=100, status=FILLED.
+Order information: ID=7, type=BUY, price=10.20, total volume=200, executed volume=150, status=ACTIVE.
+Order submitted: ID=10, type=SELL, price=0.00, volume=200.
+Transaction: BUY=7, SELL=10, price=10.20, volume=50.
+Transaction: BUY=4, SELL=10, price=10.00, volume=150.
+Order information: ID=10, type=SELL, price=0.00, total volume=200, executed volume=200, status=FILLED.
+Order submitted: ID=11, type=BUY, price=0.00, volume=100.
+Transaction: SELL=2, BUY=11, price=10.30, volume=75.
+Order information: ID=11, type=BUY, price=0.00, total volume=75, executed volume=75, status=FILLED.
+Order submitted: ID=12, type=BUY, price=0.00, volume=100.
+Order information: ID=12, type=BUY, price=0.00, total volume=100, executed volume=0, status=EXPIRED.
+Order 5 cancelled.
+Order information: ID=5, type=BUY, price=9.90, total volume=100, executed volume=0, status=CANCELLED.
+Order 5 cannot be cancelled.
+Order 2 cannot be cancelled.
+Order 50 not found.
+Order 50 not found.
+Order not accepted.
+Order book closed.
+Order information: ID=3, type=BUY, price=9.80, total volume=200, executed volume=0, status=EXPIRED.
